@@ -23,11 +23,6 @@ public class TypeText {
 		driver.findElement(By.id("email")).sendKeys("matt@gmail.com");
 		System.out.println("email typed");
 		
-	//	//Press Enter: Use Selenium Enum Keys with its constant ENTER.
-	//	driver.findElement(By.id("input")).sendKeys(Keys.ENTER); 
-	//	
-		//Press TAB key in Selenium: Press any keyboard key using Keys class.
-	//	driver.findElement(By.id("input")).sendKeys(Keys.TAB);
 		
 		//enter a text in all capital letter:
 		driver.findElement(By.xpath("//input[@type='search']")).sendKeys(Keys.SHIFT, "hello"); //prints HELLO
